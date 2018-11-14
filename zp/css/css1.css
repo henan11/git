@@ -1,0 +1,49 @@
+
+#tplb{
+	height: 670px;
+	position: relative;
+} 
+#left{
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/zuoyou.png);
+	position: absolute;
+	top: 300px;
+	left: 40px
+}
+#right{
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/zuoyou.png);
+	background-position: -40px;
+	position: absolute;
+	top: 300px;
+	right: 40px;
+}
+.li4{
+	list-style: none;
+	display: inline;
+}
+.li4 img{
+	display: none;
+	transform: all 0.6s;
+	position: absolute;
+}
+/*图片轮播结束*/
+.kuang{
+	background-color: blue;
+}
+.neirong{
+	height: 100px;
+	margin: 10px 20px;
+	background-color: red;
+	overflow: hidden;
+}
+.neirong:hover{
+	height: 200px;
+}
+.neirong>a>img{
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}

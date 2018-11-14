@@ -1,0 +1,26 @@
+body{
+	background: url(../images/bj.jpg);
+	background-attachment: fixed;
+}
+.kuang{
+	margin: 10px 50px;
+}
+.neik{
+	height: 410px;
+}
+.im1{
+	float: right;
+}
+.im2{
+	float: left;
+	margin-right: 20px;
+}
+.fenjie{
+	height: 100px;
+}
+.bian{
+	margin-top: 100px;
+}
+p{
+	color: white;
+}
